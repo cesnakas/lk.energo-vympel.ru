@@ -1,0 +1,155 @@
+.header {
+	width: 100%;
+	height: 150px;
+	//overflow: hidden;
+	background-image: url(../img/header.svg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	
+	.address {
+		display: flex;
+		align-items: stretch;
+		justify-content: center;
+		flex-direction: column;
+		height: 150px;
+		
+		.location {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			min-width: 34px;
+			margin-right: 15px;
+		}
+		
+		img {
+			width: 34px;
+			height: 30px;
+		}
+		
+		p {
+			margin-bottom: 0;
+		}
+		
+		.user-info {
+			
+			p {
+				
+				&:nth-child(1) {
+					font-size: 17px;
+					font-weight: 500;
+				}
+				
+				&:nth-child(2) {
+					color: #a5a5a5;
+					font-size: 15px;
+					font-weight: 400;
+				}
+			}
+		}
+	}
+	
+	.sub-right {
+		//height: 110px;
+		display: flex;
+		justify-content: flex-end;
+		margin-bottom: 15px;
+		line-height: 40px;
+		
+		.user-icon {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			min-width: 40px;
+			margin-right: 15px;
+			
+			img {
+				width: 40px;
+				height: 40px;
+			}
+		}
+		
+		p {
+			margin-bottom: 0;
+		}
+		
+		.user-name {
+			margin-right: 15px;
+		}
+		
+		.drop-menu {
+			
+			& > a {
+				display: block;
+				width: 40px;
+				height: 40px;
+				border-radius: 4px;
+				
+				background-image: url(../img/drop-menu.svg);
+				background-position: 50% 50%;
+				background-repeat: no-repeat;
+				background-size: 6px 24px;
+				
+				text-align: center;
+				transition: .35s;
+				
+				&:hover,
+				&[aria-expanded="true"] {
+					background-image: url(../img/drop-menu-active.svg);
+				}
+				
+				&[aria-expanded="true"] {
+					background-color: #eff3f3;
+				}
+			}
+			
+			img {
+				width: 6px;
+				height: 24px;
+			}
+			
+			.dropdown-menu {
+				width: 200px;
+				margin-top: 30px;
+				padding: 5px;
+				border: 1px solid #edf1f3;
+				background-color: #fff;
+				box-shadow: 0 0 5px rgba(128,128,128,.1);
+				
+				.dropdown-item {
+					padding: 5px 0;
+					border-radius: 4px;
+					font-weight: 300;
+					transition: .35s;
+					
+					&:before {
+						content: '';
+						display: inline-block;
+						width: 30px;
+						height: 30px;
+						margin: 0 20px;
+						background-position: 50% 50%;
+						background-repeat: no-repeat;
+						vertical-align: middle;
+					}
+					
+					&:hover {
+						background-color: $colorLink;
+						color: #fff;
+					}
+					
+					&:nth-child(1) {
+						&:before {
+							background-image: url(../img/profile.svg);
+						}
+					}
+					
+					&:nth-child(2) {
+						&:before {
+							background-image: url(../img/logout.svg);
+						}
+					}
+				}
+			}
+		}
+	}
+}

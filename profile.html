@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<title>Profile</title>
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+
+	<nav class="navigation">
+		<div class="brand">
+			<a href="index.html"><img src="img/logo.svg" alt="logo"></a>
+		</div>
+		<div class="nav-left">
+			<a href="main.html">Главная</a>
+			<a href="history.html">История </a>
+			<a class="notice" href="notifications.html">Уведомления</a>
+			<a class="selected" href="profile.html">Профиль</a>
+			<a href="help.html">Помощь</a>
+		</div>
+	</nav>
+
+	<main class="main main-lk">
+
+		<header class="header">
+			<div class="container">
+				<div class="row no-gutters align-items-center justify-content-center">
+					<div class="col-md-7 address">
+						<div class="row no-gutters">
+							
+							<div class="col-1 location">
+								<img src="img/loc.svg" alt="">
+							</div>
+							<div class="col-9 user-info">
+								<p>Абонент: 2469670</p>
+								<p>195220, Гжатская ул., д. 22 корп. 1, кв. 470</p>
+							</div>
+							<div class="col-1">
+								
+							</div>
+							
+						</div>
+					</div>
+					<div class="col-md-5 sub-right">
+						
+						<div class=" user-icon">
+							<img src="img/user.svg" alt="">
+						</div>
+						<div class="user-name">
+							<p>User Login</p>
+						</div>
+						<div class="drop-menu dropdown show">
+							<a href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+							<div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
+								<a class="dropdown-item" href="profile.html">Профиль</a>
+								<a class="dropdown-item" href="index.html">Выход</a>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</header>
+		
+		<section class="section section-content">
+			<div class="container">
+				
+				<div class="headline-wrapper">
+					<h1 class="title-back">Личный кабинет</h1>
+					<h2 class="headline">Профиль пользователя</h2>
+				</div>
+				
+				<div class="row no-gutters">
+					<div class="col-8">
+						
+						<div class="item">
+							<div class="headline-item">
+								<h5>Данные абонента</h5>
+							</div>
+							
+							<div class="item-table">
+								<div class="item-row">
+									<div class="item-cell">Электронная почта:</div>
+									<div class="item-cell"><a href="#">ivanoff@gmail.com</a></div>
+								</div>
+								<div class="item-row">
+									<div class="item-cell">Номер телефона:</div>
+									<div class="item-cell"><a href="#">8 (937) 155-40-15</a></div>
+								</div>
+								<div class="item-row">
+									<div class="item-cell">Номер договора:</div>
+									<div class="item-cell">25234324</div>
+								</div>
+								<div class="item-row">
+									<div class="item-cell">Тарифный план:</div>
+									<div class="item-cell">Квартира/дом с электроплитой</div>
+								</div>
+								<div class="item-row">
+									<div class="item-cell">Ставка тарифа:</div>
+									<div class="item-cell">День 6.76 руб. / Ночь 4.53 руб.</div>
+								</div>
+								<div class="item-row">
+									<div class="item-cell">Площадь:</div>
+									<div class="item-cell">86 кв. м</div>
+								</div>
+								<div class="item-row">
+									<div class="item-cell">Количество комнат:</div>
+									<div class="item-cell">4</div>
+								</div>
+								<div class="item-row">
+									<div class="item-cell">Прописанных:</div>
+									<div class="item-cell">2 чел.</div>
+								</div>
+							</div>
+							
+							<div class="check">
+								<input type="checkbox" name="remember" id="remember">
+								<label for="remember">Присылать счета на эл. почту</label>
+							</div>
+							
+						</div>
+						<div class="item item-metering">
+							<div class="headline-item">
+								<h5>Изменить пароль</h5>
+							</div>
+							<form action="#" method="post">
+								<div class="metering table-cell">
+									<span>Текущий пароль:</span><input type="password">
+								</div>
+								<div class="metering table-cell">
+									<span>Новый пароль:</span><input type="password">
+								</div>
+								<div class="metering table-cell">
+									<span>Новый пароль повторно:</span><input type="password">
+								</div>
+								<div class="wrapper-btn-right">
+									<button type="button" class="ripple b-btn">Применить</button>
+								</div>
+							</form>
+						</div>
+						
+					</div>
+					<div class="col-4">
+						
+						<div class="item item-accordion">
+							
+							<div class="headline-ac">
+								<h5 class="title-ac">Настройка уведомлений</h5>
+							</div>
+							
+							<div>
+								<input id="ac-1" name="accordion-1" type="checkbox" />
+								<label class="ac-label" for="ac-1">Сообщения от администратора</label>
+								<div class="ac-content">
+									<p>Текст</p>
+								</div>
+							</div>
+							<div>
+								<input id="ac-2" name="accordion-1" type="checkbox" />
+								<label class="ac-label" for="ac-2">Профиль пользователя изменен</label>
+								<div class="ac-content">
+									<div class="check">
+										<input type="checkbox" name="sms" id="sms">
+										<label for="sms">SMS-уведомления</label>
+									</div>
+									<div class="check">
+										<input type="checkbox" name="email" id="email">
+										<label for="email">Email-уведомления</label>
+									</div>
+									<div class="check">
+										<input type="checkbox" name="lk" id="lk">
+										<label for="lk">Уведомления в личном кабинете</label>
+									</div>
+								</div>
+							</div>
+							<div>
+								<input id="ac-3" name="accordion-1" type="checkbox" />
+								<label class="ac-label" for="ac-3">Уведомление о задолженности</label>
+								<div class="ac-content">
+									<p>Текст</p>
+								</div>
+							</div>
+							
+						</div>
+						
+					</div>
+				</div>
+				
+			</div>
+		</section>
+
+	</main>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+</html>

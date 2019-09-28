@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<title>Main</title>
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+
+	<nav class="navigation">
+		<div class="brand">
+			<a href="index.html"><img src="img/logo.svg" alt="logo"></a>
+		</div>
+		<div class="nav-left">
+			<a class="selected" href="main.html">Главная</a>
+			<a href="history.html">История </a>
+			<a class="notice" href="notifications.html">Уведомления</a>
+			<a href="profile.html">Профиль</a>
+			<a href="help.html">Помощь</a>
+		</div>
+	</nav>
+
+	<main class="main main-lk">
+
+		<header class="header">
+			<div class="container">
+				<div class="row no-gutters align-items-center justify-content-center">
+					<div class="col-md-7 address">
+						<div class="row no-gutters">
+							
+							<div class="col-1 location">
+								<img src="img/loc.svg" alt="">
+							</div>
+							<div class="col-9 user-info">
+								<p>Абонент: 2469670</p>
+								<p>195220, Гжатская ул., д. 22 корп. 1, кв. 470</p>
+							</div>
+							<div class="col-1">
+								
+							</div>
+							
+						</div>
+					</div>
+					<div class="col-md-5 sub-right">
+						
+						<div class=" user-icon">
+							<img src="img/user.svg" alt="">
+						</div>
+						<div class="user-name">
+							<p>User Login</p>
+						</div>
+						<div class="drop-menu dropdown show">
+							<a href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+							<div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
+								<a class="dropdown-item" href="profile.html">Профиль</a>
+								<a class="dropdown-item" href="index.html">Выход</a>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</header>
+		
+		<section class="section section-content">
+			<div class="container">
+				
+				<div class="headline-wrapper">
+					<h1 class="title-back">Личный кабинет</h1>
+					<h2 class="headline">Управления услугами</h2>
+				</div>
+				
+				<div class="row no-gutters">
+					<div class="col-6">
+						
+						<div class="item item-pay">
+							<div class="headline-item">
+								<h5>Оплата</h5>
+								<p>Электроэнергия</p>
+							</div>
+							<div class="info">
+								<p>Текущая задолженность: <span>384,34 руб.</span></p>
+							</div>
+							<form action="#" method="post">
+								<input type="text" name="amount" id="amount" placeholder="Сумма">
+								<button type="button" class="ripple b-btn">Оплатить</button>
+							</form>
+							<!--<div class="form-wrapper">
+								<input type="text" placeholder="Сумма">
+								<input type="submit" value="Оплатить">
+							</div>-->
+						</div>
+						<div class="item item-metering">
+							<div class="headline-item">
+								<h5>Показания</h5>
+								<p>Электроэнергия</p>
+							</div>
+							<div class="info">
+								<p>Прибор учета: <span>(ЛЕ 221.1.R2.DO №14839)</span><span class="question"><img src="img/question.svg" alt=""></span></p>
+								<p>Последние показания от 14.09.17: 6411 / 1377</p>
+							</div>
+							<form action="#" method="post">
+								<div class="metering">
+									<input type="text" name="day" id="day" placeholder="День">
+									<button type="button" class="ripple b-btn">Заявить</button>
+								</div>
+									<input type="text" name="night" id="night" placeholder="Ночь">
+							</form>
+							<!--<div class="form-wrapper">
+								<input type="text" placeholder="День">
+								<input type="submit" value="Заявить">
+							</div>
+							<div class="form-wrapper">
+								<input type="text" placeholder="Ночь">
+							</div>-->
+						</div>
+						
+					</div>
+					<div class="col-6">
+						
+						<div class="item item-vaucher attention">
+							<p>У Вас задолженность</p>
+							<p>Сумма 384,34 руб.</p>
+							<a class="vaucher" href="#"><span>Оплатить</span></a>
+						</div>
+						<div class="item item-vaucher success">
+							<p>Платеж за октябрь</p>
+							<p>Сумма 584,51 руб.</p>
+							<a class="vaucher" href="#"><span>Чек</span></a>
+						</div>
+						<div class="item item-vaucher success">
+							<p>Платеж за сентябрь</p>
+							<p>Сумма 432 руб.</p>
+							<a class="vaucher" href="#"><span>Чек</span></a>
+						</div>
+						<div class="item item-vaucher success">
+							<p>Платеж за август</p>
+							<p>Сумма 490,17 руб.</p>
+							<a class="vaucher" href="#"><span>Чек</span></a>
+						</div>
+						
+					</div>
+				</div>
+				
+			</div>
+		</section>
+
+	</main>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+</html>

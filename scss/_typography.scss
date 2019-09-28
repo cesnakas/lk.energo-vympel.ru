@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&subset=cyrillic');
+
+a {
+	color: $colorLink;
+	
+	&:hover {
+		color: $colorLink;
+	}
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #323232;
+    font-weight: 300;
+}
+h1 {
+    font-size: 22px;
+    margin-bottom: 1rem;
+}
+
+.headline-wrapper {
+	position: relative;
+	height: 100px;
+	margin: 3vh 0;
+}
+.title-back {
+	margin-left: 45px;
+	color: #e6eaeb;
+	font-size: 90px;
+	font-weight: bold;
+	white-space: nowrap;
+	user-select: none;
+	
+	@media (max-width: 991px) {
+		font-size: 72px;
+	}
+}
+.headline {
+	position: absolute;
+	top: 60px;
+	color: rgb(67,67,67);
+	font-size: 40px;
+	font-weight: 300;
+}
+.headline-item {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 20px;
+	padding-bottom: 15px;
+	border-bottom: 2px solid #f0f3f4;
+	
+	h5 {
+		margin-bottom: 0;
+		color: rgb(67,67,67);
+		font-size: 24px;
+		font-weight: 400;
+	}
+	
+	p {
+		margin-bottom: 0;
+		color: rgb(180,187,190);
+		font-size: 15px;
+		
+		&:before {
+			content: '';
+			display: inline-block;
+			width: 12px;
+			height: 24px;
+			margin-right: 5px;
+			vertical-align: middle;
+			background-image: url(../img/electr.svg);
+		}
+	}
+}
