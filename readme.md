@@ -17,4 +17,4 @@
 <img src="https://s3.dualstack.ap-southeast-2.amazonaws.com/assets.wappalyzer.com/images/icons/MySQL.svg" width="24" alt="MySQL">
 -->
 
-[lk.energo-vympel.ru](https://github.com/cesnakas/lk.energo-vympel.ru/)
+[lk.energo-vympel.ru](https://cesnakas.github.io/lk.energo-vympel.ru/)
