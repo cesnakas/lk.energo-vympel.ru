@@ -7,6 +7,7 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-333?labelColor=444&logo=javascript&logoColor=fff)
 ![JQuery](https://img.shields.io/badge/JQuery-333?labelColor=444&logo=jquery)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-333?labelColor=444&logo=bootstrap&logoColor=fff)
+![Material Design](https://img.shields.io/badge/Material_Design-333?labelColor=444&logo=material-design&logoColor=fff)
 ![PHP](https://img.shields.io/badge/PHP-333?labelColor=444&logo=php&logoColor=fff)
 ![MySQL](https://img.shields.io/badge/MySQL-333?labelColor=444&logo=mysql&logoColor=fff)
 ![1C-Bitrix](https://img.shields.io/badge/cms-1C--Bitrix-333?labelColor=444)
